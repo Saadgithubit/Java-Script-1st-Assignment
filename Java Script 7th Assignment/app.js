@@ -1,248 +1,248 @@
-// ................................FOR LOOPS..............................................
-// ....................................Q1................................................
+//......................................Q1......................................................
 
-// for(var i =0; i < 5; i++){
-//     document.write("Hello World ")
+// var firstName = prompt("Enter your first name?....")
+// var lastName = prompt("Enter your last name?....")
+
+// var fullName = firstName + " " + lastName
+
+// alert("Hiiii" + fullName)
+
+//......................................Q2......................................................
+
+// var userInput = prompt("Enter your mobile phone")
+
+// var length = userInput.length
+
+// document.write("My Favourite Mobile phone is: " + userInput + "<br>" + "Length of string is: " + length)
+
+//......................................Q3......................................................
+
+// var abc = "Pakistani"
+
+// var indexN = abc.indexOf("n")
+
+// document.write("String: " + abc + "<br>" + "Index of 'n' is: " + indexN)
+//......................................Q4......................................................
+// var text = "Hello World"
+
+// document.write("String: " + text + "<br> Last index of 'l' is: " + text.lastIndexOf("l"))
+//......................................Q5......................................................
+
+// var text = 'Pakistani'
+
+// document.write("String: " + text + " <br> Character at index '3' is: " + text[3])
+
+//......................................Q6......................................................
+
+// var firstName = prompt("Enter your first name?....")
+// var lastName = prompt("Enter your last name?....")
+
+// var fullName = firstName + " " + lastName
+
+// alert("Hiiii" + fullName)
+
+//......................................Q7......................................................
+
+// var city = "Hyderabad"
+
+// //Using slice method
+// // for (var i = 0; i < city.length; i++) {
+// //     var extract = city.slice(i , i + 5)
+// //     if (extract === "Hyder"){
+// //         city = city.slice(0 , i) + "Islam" + city.slice(i + 5)
+// //     }
+// //     alert(city)
+// // }
+// //Using replace method
+// city.replace("Hyder" , "Islam")
+
+// alert(city)
+//......................................Q8......................................................
+
+
+// var beforeMessage = "Ali and Sami are best friends. They play cricket and football together."
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+
+// for (i = 0; i < message.length; i++) {
+//     var extract = message.slice(i, i + 3)
+//     if(extract === "and"){
+//         message = message.slice(0,i) + "&" + message.slice(i + 3)
+//     }
+// }
+// document.write("Message: " + beforeMessage + "<br> After Replacement: " + message)
+
+//......................................Q9......................................................
+
+// var value = "472"
+
+// document.write("Value: " + value + "<br> Type: String <br> Value: " + +value + "<br> Type: Number")
+//......................................Q10......................................................
+
+// var url = "www.facebook.com"
+
+// for (i = 0; i < url.length; i++) {
+
+//     var extract = url.slice(i, i + 4)
+//     if (extract === "www."){
+//         url = url.slice(0, i) + '' + url.slice(i + 4)
+//     }
+// }
+// document.write(url)
+
+//......................................Q11......................................................
+
+// var userInput = prompt("Enter any text")
+// var upperCase = userInput.toUpperCase('')
+
+// console.log (upperCase)
+
+//......................................Q12......................................................
+
+// var userInput = prompt("Enter any text")
+// var lowerCase = userInput.toLowerCase('')
+
+// console.log (lowerCase)
+
+//......................................Q13......................................................
+
+// var userInput = prompt("Enter Any Lower Case Text")
+// var titleCase = userInput[0].toUpperCase() + userInput.slice(1)
+
+
+// document.write(titleCase)
+
+//......................................Q14......................................................
+
+// var num = 35.36
+// var str = num.toString()
+
+// str = str.replace("." , "")
+
+// console.log(str)
+
+//......................................Q15......................................................
+
+// var a = '3'
+// var b = '3'
+// var x = a + b
+// document.write("a is " + a + "<br> b is " + b + "<br> a + b = " + x)
+
+//......................................Q16......................................................
+
+// var a = '3'
+// var b = '3'
+// var y = +a - +b
+// document.write("a is " + a + "<br> b is " + b + "<br> a - b = " + y)
+//......................................Q17......................................................
+
+// var userName = prompt("Enter Your Name?....")
+
+// for (var i = 0; i < userName.length; i++){
+//     if (userName[i].charCodeAt() == 33){
+//     alert("Enter a valid name")
+// }
+//    else if (userName[i].charCodeAt() == 44){
+//     alert("Enter a valid name")
+
+//     } 
+//     else if (userName[i].charCodeAt() == 46){
+//     alert("Enter a valid name")
+
+//     } 
+//     else if (userName[i].charCodeAt() == 64){
+//     alert("Enter a valid name")
+
+//     } 
 // }
 
-// ....................................Q2................................................
+// console.log(userName)    
 
-// for(var i =1; i < 11; i++){
-//     document.write(i + "<br>")
-// }
+//......................................Q18......................................................
 
-// ....................................Q3................................................
+// var userInput = prompt("Enter cookie name?....")
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var cookieFound = false
 
-// var num = prompt("Enter Number")
-// var tableLength = prompt("Enter Table Length")
-
-// for(i=1; i<=tableLength; i++){
-//     document.write(num + " x " + i + " = " + num * i + "<br>")
-// }
-// ....................................Q4................................................
-
-// var mobile = ['Nokia','Samsung', 'Apple', 'Sony', 'Huawei']
-
-// for(i=0; i< mobile.length; i++){
-//     document.write(mobile[i] + "<br>")
-// }
-
-// ....................................Q5................................................
-
-// var fruits = ['Apple', 'Banana', 'Mango', 'Orange', 'Stawberry']
-
-
-// for (i = 0; i < fruits.length; i++) {
-//     document.write(fruits[i] + "<br>")
-// }
-
-// for (i = 0; i < fruits.length; i++) {
-//     document.write('Element at index ' + i + " " + fruits[i] + '<br>')
-// }
-
-
-// ....................................Q6................................................
-
-// var userInput = +prompt("Enter Number of items")
-// var arr = []
-
-// for(i=0; i < userInput; i++){
-//    arr.push(prompt("Enter value"))
-
-// }
-// document.write(arr)
-// ....................................Q7................................................
-// document.write("Counting: <br>")
-// for (i = 1; i <= 15; i++) {
-//     document.write(i + " ")
-// }
-// document.write("<br> Reverse counting: <br>")
-// for (i = 10; i >= 1; i--) {
-//     document.write(i + " ")
-// }
-// document.write("<br> Even: <br>")
-// for (i = 0; i <= 20; i += 2) {
-//     document.write(i + " ")
-// }
-// document.write("<br> Odd: <br>")
-// for (i = 1; i <= 20; i += 2) {
-//     document.write(i + " ")
-// }
-// document.write("<br> Series: <br>")
-// for (i = 2; i <= 20; i += 2) {
-//     document.write(i + "k ")
-// }
-// ....................................Q8................................................
-
-// var cakes = ["Cake", "Apple pie", "Cookie", "Chips", "Patties"]
-// var userInput = prompt("Welcome to abc Bakery , What do you want to order sir/mam")
-// var cakesFound = false
-
-// for (i = 0; i < cakes.length; i++) {
-
-//     if (cakes[i] == userInput) {
+// for (i = 0; i < arr.length; i++){
+//      if(arr[i].toLowerCase() === userInput){
+//         cookieFound = true
 //         document.write(userInput + " is available at index " + i + " in our bakery")
-//         cakesFound = true
+//      }
+// }
+// if(cookieFound == false){
+//     document.write("We are sorry. " + userInput + " is not available in our bakery")
+// }
+//......................................Q19......................................................
 
-//         break
+
+// var ab = 'car'
+// var cd = 'cab'
+// if( ab > cd){
+//     document.write("car is greater than cab")
+// }
+// else{
+//     document.write("cab is greater than car")
+// }
+//......................................Q20......................................................
+
+// var password = prompt("Enter Password")
+// password = password.toLowerCase()
+  
+//    if(password.length < 6){
+//         alert("Please insert alteast 6 chracter password")
+        
+//     }
+//     else if(password[0] >= 0 || password[0] <= 9){
+//         alert("Password cannot begin with a number")
+        
+//     }
+// else if(password.charCodeAt() <= 122 && password.charCodeAt() >= 97){
+//         alert("Login Successful")
+        
+//     }
+    
+
+
+// console.log(password.length)
+
+//......................................Q21......................................................
+//......................................Q22......................................................
+
+// var userInput = "Pakistan"
+
+// document.write("User Input: " + userInput + "<br> Last character of input is: " + userInput[7])
+//......................................Q23......................................................
+
+// var text = "The quick brown fox jumps over the lazy dog";
+// text = text.toLowerCase();
+// var count = 0;
+// for(var i =0; i < text.length; i++){
+//     var extract = text.slice(i , i + 3)
+//    if(extract === 'the'){
+//     ++count;
+//     continue
+//    }
+// }
+// console.log(text)
+// console.log("There are " + count + " occurrences of word the")
+
+//......................................Q24......................................................       
+
+// var str = "Pakistan"
+
+// str = str.toLowerCase()
+
+// var vcount = 0
+// var ccount = 0
+// for (var i = 0; i < str.length; i++){
+
+//     if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i'){
+//         vcount++
+//     }
+//     else if(str[i] >= 'a' && str[i] <= 'z'){
+//         ccount++;
 //     }
 // }
-// if (cakesFound == false) {
-//     document.write("We are sorry sir. " + userInput + " is not available in our bakery")
-// }
 
-// ....................................Q9................................................
-
-// var num = [24,53,78,91,12]
-// var largestNum = num[0]
-
-// for(i=0; i<num.length; i++){
-//     if (num[i] > largestNum){
-//         largestNum = num[i]
-//     }
-// }
-// document.write("Array item: " + num + "<br>")
-// document.write("The Largest Number is " + largestNum)
-// ....................................Q10................................................
-
-// var num = [24,53,78,91,12]
-// var smallestNum = num[0]
-
-// for(i=0; i<num.length; i++){
-//     if (num[i] < smallestNum){
-//         smallestNum = num[i]
-//     }
-// }
-// document.write("Array item: " + num + "<br>")
-// document.write("The Largest Number is " + smallestNum)
-
-// ....................................Q11................................................
-
-// var num = [24,53,78,91,12]
-// var largestNum = num[0]
-// var smallestNum = num[0]
-
-// for(i=0; i<num.length; i++){
-//         if (num[i] > largestNum){
-//             largestNum = num[i]
-//         }
-//     }
-
-// for(i=0; i<num.length; i++){
-//     if (num[i] < smallestNum){
-//         smallestNum = num[i]
-//     }
-// }
-
-
-//     document.write("Array item: " + num + "<br>")
-//     document.write("The Largest Number is " + largestNum + "<br>")
-//     document.write("The Largest Number is " + smallestNum)
-
-
-// ....................................Q12................................................
-
-// for(i=5; i <= 100; i+=5){
-//     document.write(i + " ")
-// }
-// ....................................Q13................................................
-
-// var students = ["Ali","Sami","Taha","Inam"]
-// var scores = [58,73,89,90]
-
-
-// document.write(students[0] +" "+ scores[0] + "<br>")
-// document.write(students[1] +" "+ scores[1] + "<br>")
-// document.write(students[2] +" "+ scores[2] + "<br>")
-// document.write(students[3] +" "+ scores[3])
-// ....................................Q14................................................
-
-// var scores = [12, 45, 3, 22, 34, 50]
-// var stop = +prompt("Enter stop value")
-
-// for (i = 0; i < scores.length; i++){
-
-
-// }
-// for(i = 0; i <= scores.indexOf(stop); i++){
-//         document.write (scores[i] + " ")
-// }
-
-// ....................................Q15................................................
-
-// var arr = [[1,2,3],[4,5,6],[7,8,9]]
-
-
-// for (var i = 0; i < arr.length; i++){
-//     nestedArray= arr[i]
-
-//     var line = ''
-//         for(var j =0; j< nestedArray.length; j++){
-
-//             line += nestedArray[j]
-
-
-
-//     }
-//     console.log(line)
-// }
-
-// ....................................Q16................................................
-
-
-// var userInput = prompt("Enter Number")
-// for(i = userInput; i > 0; i-=0.5)
-// document.write(i + ", ")
-// ....................................Q17................................................
-
-// for (i = 0; i <= 20; i++) {
-//     if (i % 2 == 0) {
-//         document.write(i + " is even" + "<br>")
-//     }
-//     else if (i % 1 == 0) {
-//         document.write(i + " is odd" + "<br>")
-//     }
-
-// }
-// ....................................Q18................................................
-
-
-// var odd = 1
-
-// for (i = 1; i <= 7; i+=2){
-//      odd = odd * i
-// }
-// document.write("The Product of odd integars from 1 to 7 is " + odd)
-
-// ....................................Q19................................................
-
-// var userInput = prompt("Enter Initial Numbers Of Stars?.....")
-
-// for(var i =userInput.length; i > 0; i--){
-
-//     console.log(userInput.slice(0,i))
-// }
-
-// ....................................Q20................................................
-//........................a...........................
-// var stars = "*****"
-
-// for (var i = 0; i < 5; i++) {
-//        console.log(stars , "<br>")
-// }
-//........................b...........................
-
-// var star = "*****"
-
-// for (var i = 1; i <= star.length; i++){
-//     console.log(star.slice(0,i))
-// }
-
-//........................c...........................
-
-// var star = "*****"
-
-// for (var i = star.length; i > 0; i--){
-//     console.log(star.slice(0,i))
-// }
-
+// console.log("Number of vowels: " + vcount)
+// console.log("Number of consonants: " + ccount)

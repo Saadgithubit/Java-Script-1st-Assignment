@@ -240,22 +240,22 @@ else {
 
 var userInput = prompt("Enter first number")
 var userInput2 = prompt("Enter second number")
-// var operator = prompt("Enter operator what do you want + - x  / ")
-// if(operator == "+"){
-//     alert(+userInput + +userInput2)
-// }
-// else if(operator == "-"){
-//     alert(userInput - userInput2)
-// }
-// else if(operator == "*"){
-//     alert(userInput * userInput2)
-// }
-// else if(operator == "/"){
-//     alert(userInput / userInput2)
-// }
-// else{
-//     alert(userInput % userInput2)
-// }
+var operator = prompt("Enter operator what do you want + - x  / ")
+if(operator == "+"){
+    alert(+userInput + +userInput2)
+}
+else if(operator == "-"){
+    alert(userInput - userInput2)
+}
+else if(operator == "*"){
+    alert(userInput * userInput2)
+}
+else if(operator == "/"){
+    alert(userInput / userInput2)
+}
+else{
+    alert(userInput % userInput2)
+}
 
 // ............................Q18.....................................
 
