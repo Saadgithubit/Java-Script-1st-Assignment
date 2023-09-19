@@ -9,6 +9,13 @@
 // all()
 
 //............................Q2.......................................
+
+// function currentDate(){
+//     var date = new Date()
+//     console.log(date)
+// }
+
+// currentDate()
 //............................Q3.......................................
 
 // function greet (){
@@ -89,18 +96,136 @@
 // counting()
 
 
-//............................Q9.......................................
+//............................Q9........................................
+
+// function calculateHypotenuse(){
+//     var base = prompt("Enter Base Value")
+//     var per = prompt("Enter Perpendicular Value")
+
+
+// function calculateSquare(value){
+//       var value = value * value
+//       return value
+// }
+//     var result = base + per
+//     return result
+// }
+
+// console.log(calculateHypotenuse())
+
+
 //............................Q10.......................................
+
+// function arr() {
+//     var array = []
+//     var length = prompt("Enter Variable Length")
+//     for (var i = 0; i < length; i++) {
+//     array.push(prompt("Enter Value"))
+// }
+//    return array
+// }
+
+// document.write(arr())
+
 //............................Q11.......................................
+
+// function largestNum(firstNum , SecondNum){
+//     if(firstNum > SecondNum){
+//         return firstNum
+//     }
+//     else{
+//         return SecondNum
+//     }
+   
+// }
+
+// document.write(largestNum(30,50))
+
 //............................Q12.......................................
+
+// function calculateArea(){
+//     var width = prompt("Enter Area Width")
+//     var height = prompt("Enter Area Height")
+//     var area = width * height
+//     return area
+// }
+// console.log(calculateArea())
+
 //............................Q13.......................................
+
+// function sortedArray(){
+//     var arrLength = prompt("Enter Array Length")
+//     var array = []
+//     for(var i =0; i < arrLength; i++){
+//         array.push(prompt("Enter Index Of " + i))
+//     }
+//     array = array.sort();
+//     return array
+// }
+
+// document.write(sortedArray())
+
 //............................Q14.......................................
+
+// var array = [5,2,4,9,12]
+// var result = 0
+// function sum(){
+//    for(var i =0; i < array.length; i++){
+//     result += array[i]
+//    }
+//    return result
+// }
+
+// console.log(sum())
 //............................Q15.......................................
-//............................Q16.......................................
+// //............................Q16.......................................
+
+// function power(){
+//     var num = prompt("Enter Your Number")
+//     return num * num * num
+// }
+
+// console.log(power())
+
 //............................Q17.......................................
+
+// function dice(){
+//     var diceValue = Math.ceil(Math.random() * 6)
+//     return diceValue
+// }
+
+// console.log(dice())
+
 //............................Q18.......................................
+
+// var x = 32243;
+
+// function reverse(){
+//     x = x + ""
+//   return  x.split("").reverse().join("")
+// }
+// console.log(reverse())
 //............................Q19.......................................
+
+// function palandrom(){
+//     var userInput = prompt("Enter Text")
+//     var reverseText = ''
+   
+// for(var i =userInput.length -1; i >= 0; i--){
+//     reverseText += userInput[i]
+// }
+//    if(userInput == reverseText){
+//     console.log("Palandrom")
+//    }
+//    else{
+//     console.log("Not a palandrom")
+//    }
+// }
+// console.log(palandrom())
+
 //............................Q20.......................................
+
+
 //............................Q21.......................................
 //............................Q22.......................................
 
