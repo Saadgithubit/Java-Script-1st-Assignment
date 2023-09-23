@@ -78,3 +78,51 @@
 
 
 // ..................................Q6..........................................
+
+// var students = [
+//     {
+//     _id: 'std1',
+//     name: 'Bill Gates',
+//     age: 30
+//     },
+//     {
+//     _id: 'std2',
+//     name: 'Steve Jobs',
+//     age: 30
+//     },
+//     {
+//     _id: 'std3',
+//     name: 'Suzanne Collins',
+//     age: 30
+//     }];
+    
+//     var courses = [
+//     {
+//     name: 'Maths',
+//     std_id: ['std3', 'std1']
+//     },
+//     {
+//     name: 'Computer Science',
+//     std_id: ['std3', 'std2']
+//     },
+//     {
+//     name: 'Commerce',
+//     std_id: ['std1']
+//     },
+//     ]
+
+console.log(courses[0].name)
+console.log(students[2].name)
+console.log(students[2]._id)
+console.log(students[0].name)
+console.log(students[0]._id)
+
+console.log(courses[1].name)
+console.log(students[2].name)
+console.log(students[2]._id)
+console.log(students[1].name)
+console.log(students[1]._id)
+
+console.log(courses[2].name)
+console.log(students[0].name)
+console.log(students[0]._id)
