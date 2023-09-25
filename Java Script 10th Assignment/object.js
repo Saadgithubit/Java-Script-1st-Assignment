@@ -73,23 +73,25 @@ var arr = [
 arr.splice(3,1,{name: 'Siddiq', age: 23})
 arr.push({name: 'Umair', age: '23'})
 arr.shift()
-
+for(var i =0; i < arr.length; i++){
+    arr[i].date = new Date()
+}
 // ..................................Q5..........................................
 
 var arr = [
     {name: 'Asher', age: 22},
     {name: 'Zubair', age: 20},
     {name: 'Kashif', age: 23},
-    {name: 'Wasif', age: 17},
+    {name: 'Wasif', age: 18},
     {name: 'Hanzala', age: 28}
     ]
-
-for(var key in arr){
-    if(arr[key].age > 18 && arr[key].age <= 28){
-        console.log(arr[key].name)
+var newArr =[]
+for(var i = 0; i < arr.length; i++){
+    if(arr[i].age >= 18 && arr[i].age<= 28 && arr[i].name.indexOf('f') != -1){
+        newArr.push(arr[i].name)
     }
 }
-
+console.log(newArr.toString())
 // ..................................Q6..........................................
 
 var students = [
